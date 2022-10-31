@@ -7,12 +7,60 @@ html{
 body{
     background-color:rgb(63, 63, 70);
 }
+.div-contacto {
+    background-image: url(../document/Rutas-en-moto-por-Europa.jpg);
+    height:600PX;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    padding: 25px;
+    color: black;
+    text-decoration: double;
+}
+.h2-sombreado{
+    margin-top: 80px;
+    text-shadow: 1px 1px 0px whitesmoke, -1px -1px 0px whitesmoke ;
+}
+.seccion-contacto{
+    justify-content: center;
+}
+.imagen-principal__motos{
+    width: 99%;
+    height: 600px;
+    background-image: url(../document/imagen\ de\ ruta\ moto.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+   padding-left: 90px;
+   margin-bottom: 0px;
+}
+.contenedor-motos__h2{
+    font-size: 50px;
+    color: yellow;
+    text-shadow: 2px 2px 14px rgb(255, 0, 0);
+    border: 1px red solid;
+    border-radius: 10px;
+}
 .contenedor-de-camionetas__h4{
     color: rgb(0, 0, 0);
     text-shadow: 2px 2px 10px white;
     text-shadow: 2px 2px 8px white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:18px;
+}
+.primera-fila{
+    margin-top: 130px;
+}
+.border{
+    border-radius: 10px;
+}
+.contenedor-motos{
+ padding: 60px;
+}
+.imagenes-motos:hover{
+    transform: scale(1.04, 1.04 );
+    transition-duration: 700ms;
 }
 .contenedor-de-camionetas__h3{
     color: rgb(0, 0, 0);
@@ -30,8 +78,15 @@ body{
 }
 .ver-mas{
     width: 100%;
-    height: 20px;
-    background-color: rgb(0, 198, 178);
+    height: 30px;
+    background-color: rgb(20, 217, 50);
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px white;
+}
+.ver-mas:hover{
+    background-color: rgb(87, 225, 108);
+    transition-duration: 400ms;
 }
 .ver-mas__a{
 text-decoration: none;
@@ -39,16 +94,17 @@ font-family: cursive;
 
 }
 .cajas__listas {
-    text-align: center;
+    text-align: start;
     font-family: Arial, Helvetica, sans-serif;
     height: 40px;
-    width: 100px;
+    width: 45px;
     color: rgb(0, 57, 170);
     background-color: rgb(36, 36, 37);
     padding: 5px;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 0px;
     border-left: 1px solid whitesmoke;
+    font-size: 10px;
 }
 .cajas__listas:hover {
 
@@ -152,8 +208,8 @@ transition-duration: 700ms;
 .nav{
     position: fixed;
     top: 0px;
-    width: 99%;
-    height: 50px;
+    width: 100%;
+    height: 65px;
     display: flex;
     background-color: rgb(36, 36, 37);
     justify-content: center;
@@ -297,8 +353,22 @@ gap: 30px;
 .footer{
     margin-left: 30px;
     color: burlywood;
+ 
 }
 @media (min-width: 720px ){
+    .cajas__listas {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 40px;
+        width: 50px;
+        color: rgb(0, 57, 170);
+        background-color: rgb(36, 36, 37);
+        padding-top: 5px;
+        text-decoration: none;
+        
+        border-left: 1px solid whitesmoke;
+        font-size: 11px;
+    }
     .contenedor-de-camionetas__h4{
         color: rgb(0, 0, 0);
         text-shadow: 2px 2px 10px white;
@@ -436,12 +506,16 @@ gap: 30px;
         text-shadow: 2px 2px 8px white;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    /* .imagen-principal{
-        width: 99%;
-        height: 350px;
-        background-image: url(../document/duster.webp);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        padding-top: 120px;
-       padding-left: 90px;
-    } */
+    .cajas__listas {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 40px;
+        width: 66px;
+        color: rgb(0, 57, 170);
+        background-color: rgb(36, 36, 37);
+        padding-top: 5px;
+        text-decoration: none;
+      
+        border-left: 1px solid whitesmoke;
+        font-size: 12px;
+    }
