@@ -7,6 +7,19 @@ html{
 body{
     background-color:rgb(63, 63, 70);
 }
+.footer-background{
+    background-color: blue;
+}
+footer h3{
+    text-shadow: 2px 1px 3px white;
+    text-shadow: -2px -1px 3px white;
+}
+.border-img{
+    border-radius: 30px;
+}
+.border-img-2{
+    border-radius: 5px;
+}
 .div-contacto {
     background-image: url(../document/Rutas-en-moto-por-Europa.jpg);
     height:600PX;
@@ -113,7 +126,10 @@ font-family: cursive;
     transition-duration: 900ms;
     translate: 0px -2px;
 }
-
+.cajas__listas:active{
+    background-color: rgb(123, 123, 123);
+    transition-duration: 200ms;
+}
 .contenedor-de-camionetas__cajas_1:hover{
 transform: scale(1.04, 1.04 );
 transition-duration: 700ms;

@@ -1,0 +1,33 @@
+.imagen-principal__motos{
+    width: 99%;
+    height: 270px;
+    background-image: url(../../document/imagen\ de\ ruta\ moto.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+   padding-left: 90px;
+   margin-bottom: 0px;
+}
+.contenedor-motos__h2{
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 2px 2px 14px rgb(255, 0, 0);
+    border: 1px red solid;
+    border-radius: 10px;
+}
+.imagenes-motos:hover{
+    transform: scale(1.04, 1.04 );
+    transition-duration: 700ms;
+}
+.contenedor-motos{
+    padding: 60px;
+   }
+   @media (min-width: 720px) {
+    .imagen-principal__motos{
+
+        height: 600px;
+}
+.contenedor-motos__h2{
+    font-size: 50px;
+}
+   }

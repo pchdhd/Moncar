@@ -1,0 +1,581 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: rgb(63, 63, 70);
+}
+
+.contenedor-de-camionetas__cajas_2:hover {
+  background-image: url(../document/camioneta\ 2.webp);
+}
+
+.caja-autos, .contenedor-de-camionetas__cajas_2:hover {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+  transform: scale(1.04, 1.04);
+  transition-duration: 700ms;
+}
+
+.contenedor-de-camionetas__cajas_3:hover {
+  background-image: url(../document/camioneta\ 3.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+  transform: scale(1.04, 1.04);
+  transition-duration: 700ms;
+}
+
+.contenedor-de-camionetas__cajas_4:hover {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+  transform: scale(1.04, 1.04);
+  transition-duration: 700ms;
+}
+
+.contenedor-de-camionetas__cajas_5:hover {
+  background-image: url(../document/camioneta\ 5.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+  transform: scale(1.04, 1.04);
+  transition-duration: 700ms;
+}
+
+.contenedor-de-autos__cajas_1:hover {
+  background-image: url(../document/auto\ 1.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+  transform: scale(1.04, 1.04);
+  transition-duration: 700ms;
+}
+
+.contenedor-de-autos__cajas_2:hover {
+  background-image: url(../document/auto\ 2.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+  transform: scale(1.04, 1.04);
+  transition-duration: 700ms;
+}
+
+.contenedor-de-autos__cajas_3:hover {
+  background-image: url(../document/auto\ 3.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+  transform: scale(1.04, 1.04);
+  transition-duration: 700ms;
+}
+
+.contenedor-de-autos__cajas_4:hover {
+  background-image: url(../document/auto\ 4.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+  transform: scale(1.04, 1.04);
+  transition-duration: 700ms;
+}
+
+.contenedor-de-autos__cajas_5:hover {
+  background-image: url(../document/auto\ 5.webp);
+}
+
+.ver-mas {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(20, 217, 50);
+  margin-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px white;
+}
+
+.ver-mas:hover {
+  background-color: rgb(87, 225, 108);
+  transition-duration: 400ms;
+}
+
+.ver-mas__a {
+  text-decoration: none;
+  font-family: cursive;
+}
+
+.contenedor-de-vehiculos__border {
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
+.imagen-principal__linea-fina {
+  width: 99%;
+  background-color: rgb(13, 255, 0);
+  height: 8px;
+  border-top: 3px rgb(156, 230, 152) solid;
+}
+
+@media (min-width: 720px) {
+  .cajas__listas {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 50px;
+    color: rgb(0, 57, 170);
+    background-color: rgb(36, 36, 37);
+    padding-top: 5px;
+    text-decoration: none;
+    border-left: 1px solid whitesmoke;
+    font-size: 11px;
+  }
+}
+@media (min-width: 1200px) {
+  .cajas__listas {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 66px;
+    color: rgb(0, 57, 170);
+    background-color: rgb(36, 36, 37);
+    padding-top: 5px;
+    text-decoration: none;
+    border-left: 1px solid whitesmoke;
+    font-size: 12px;
+  }
+}
+.nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  background-color: rgb(36, 36, 37);
+  justify-content: center;
+}
+
+.h1-index {
+  max-height: 50px;
+  padding-top: 10px;
+  text-shadow: 3px 3px 4px;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(221, 255, 179);
+}
+
+.cajas__listas {
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 40px;
+  width: 45px;
+  color: rgb(0, 57, 170);
+  background-color: rgb(36, 36, 37);
+  padding: 5px;
+  text-decoration: none;
+  margin-right: 0px;
+  border-left: 1px solid whitesmoke;
+  font-size: 10px;
+}
+
+.cajas__listas:hover {
+  background-color: rgb(39, 39, 39);
+  color: rgb(53, 93, 173);
+  transition-duration: 900ms;
+  translate: 0px -2px;
+}
+
+.cajas__listas:active {
+  background-color: rgb(123, 123, 123);
+  transition-duration: 200ms;
+}
+
+.footer-background {
+  background-color: blue;
+}
+
+footer h3 {
+  text-shadow: 2px 1px 3px white;
+  text-shadow: -2px -1px 3px white;
+}
+
+.border-img {
+  border-radius: 30px;
+}
+
+.border-img-2 {
+  border-radius: 5px;
+}
+
+.footer {
+  margin-left: 30px;
+  color: burlywood;
+}
+
+.imagen-principal__linea {
+  width: 99%;
+  background-color: rgb(13, 255, 0);
+  height: 40pt;
+}
+
+.imagen-principal {
+  width: 99%;
+  height: 300px;
+  background-image: url(../../document/duster.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  padding-left: 90px;
+  margin-bottom: 0px;
+}
+
+.imagen-principal__letras {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 10px white;
+  text-shadow: 2px 2px 8px white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 13px;
+}
+
+.imagen-principal__duster {
+  margin-top: 140px;
+  color: black;
+  text-shadow: 2px 2px 10px white;
+  text-shadow: 2px 2px 8px white;
+  font-size: 1rem;
+}
+
+.imagen-principal__precio {
+  color: black;
+  text-shadow: 2px 2px 10px white;
+  text-shadow: 2px 2px 8px white;
+  font-size: 1rem;
+}
+
+@media (min-width: 720px) {
+  .imagen-principal__linea {
+    width: 99%;
+    background-color: rgb(13, 255, 0);
+    height: 40pt;
+  }
+  .imagen-principal {
+    width: 99%;
+    height: 450px;
+    background-image: url(../document/duster.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-left: 90px;
+  }
+  .imagen-principal__letras {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px white;
+    text-shadow: 2px 2px 8px white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 23px;
+  }
+  .imagen-principal__duster {
+    margin-top: 150px;
+    color: black;
+    text-shadow: 2px 2px 10px white;
+    text-shadow: 2px 2px 8px white;
+    font-size: 2rem;
+  }
+  .imagen-principal__precio {
+    color: black;
+    text-shadow: 2px 2px 10px white;
+    text-shadow: 2px 2px 8px white;
+    font-size: 25px;
+  }
+  .h1-index {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(221, 255, 179);
+    text-shadow: 3px 3px 4px;
+    margin-right: 75%;
+  }
+  .in {
+    display: flex;
+    justify-content: center;
+  }
+  .h2-sombreado {
+    margin-top: 80px;
+    text-shadow: 1px 1px 0px whitesmoke, -1px -1px 0px whitesmoke;
+  }
+  .primera-fila {
+    margin-top: 130px;
+  }
+}
+@media (min-width: 1200px) {
+  .h1-index {
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(221, 255, 179);
+    text-shadow: 3px 3px 4px;
+    margin-right: 180%;
+  }
+  .imagen-principal__linea {
+    width: 99%;
+    background-color: rgb(13, 255, 0);
+    height: 40pt;
+  }
+  .imagen-principal {
+    width: 99%;
+    height: 800px;
+    background-image: url(../../document/duster.webp);
+    background-size: 100%;
+    background-repeat: none;
+  }
+  .imagen-principal__duster {
+    margin-top: 400px;
+    color: black;
+    text-shadow: 2px 2px 10px white;
+    text-shadow: 2px 2px 8px white;
+    font-size: 3rem;
+  }
+  .imagen-principal__precio {
+    color: black;
+    text-shadow: 2px 2px 10px white;
+    text-shadow: 2px 2px 8px white;
+    font-size: 2rem;
+  }
+  .imagen-principal__letras {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px white;
+    text-shadow: 2px 2px 8px white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+.contenedor-de-camionetas__h4 {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 10px white;
+  text-shadow: 2px 2px 8px white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.contenedor-de-camionetas__h3 {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 10px white;
+  text-shadow: 2px 2px 8px white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.h2-camionetas {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  text-shadow: 2px 2px 10px white;
+  text-shadow: 2px 2px 15px whitesmoke;
+}
+
+.contenedor-de-camionetas {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  grid-template-rows: 80px 290px 290px 290px 290px 290px;
+  gap: 30px;
+}
+
+.contenedor-de-camionetas__cajas_0 {
+  background-color: rgb(238, 119, 119);
+  border: 1px white solid;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+
+.contenedor-de-camionetas__cajas_1 {
+  background-image: url(../../document/camioneta\ 1.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+}
+
+.contenedor-de-camionetas__cajas_2 {
+  background-image: url(../document/camioneta\ 2.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+}
+
+.contenedor-de-camionetas__cajas_3 {
+  background-image: url(../document/camioneta\ 3.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+}
+
+.contenedor-de-camionetas__cajas_4 {
+  background-image: url(../document/camioneta\ 4.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+}
+
+.contenedor-de-camionetas__cajas_5 {
+  background-image: url(../document/camioneta\ 5.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+}
+
+.contenedor-de-autos__cajas_0 {
+  background-color: rgb(238, 119, 119);
+  border: 1px white solid;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+
+.contenedor-de-autos__cajas_1 {
+  background-image: url(../document/auto\ 1.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+}
+
+.contenedor-de-autos__cajas_2 {
+  background-image: url(../document/auto\ 2.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+}
+
+.contenedor-de-autos__cajas_3 {
+  background-image: url(../document/auto\ 3.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+}
+
+.contenedor-de-autos__cajas_4 {
+  background-image: url(../document/auto\ 4.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+}
+
+.contenedor-de-autos__cajas_5 {
+  background-image: url(../document/auto\ 5.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+}
+
+@media (min-width: 720px) {
+  .contenedor-de-camionetas__h4 {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px white;
+    text-shadow: 2px 2px 8px white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 25px;
+  }
+  .contenedor-de-camionetas__h3 {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px white;
+    text-shadow: 2px 2px 8px white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 25px;
+  }
+  .h2-camionetas {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 2px 10px white;
+    text-shadow: 2px 2px 15px whitesmoke;
+  }
+  .contenedor-de-camionetas__cajas_0 {
+    background-color: rgb(238, 119, 119);
+    border: 1px white solid;
+    grid-column: span 2;
+    padding-top: 30px;
+  }
+  .contenedor-de-camionetas {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+    grid-template-rows: 100px 200px 200px 200px;
+  }
+}
+@media (min-width: 1200px) {
+  .contenedor-de-camionetas {
+    display: grid;
+    grid-template-columns: 550px 550px;
+    justify-content: center;
+    grid-template-rows: 120px 400px 400px 400px;
+  }
+}
+.div-contacto {
+  background-image: url(../document/Rutas-en-moto-por-Europa.jpg);
+  height: 600PX;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0px;
+  padding: 25px;
+  color: black;
+  text-decoration: double;
+}
+
+.seccion-contacto {
+  justify-content: center;
+}
+
+.imagen-principal__motos {
+  width: 99%;
+  height: 270px;
+  background-image: url(../../document/imagen\ de\ ruta\ moto.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  padding-left: 90px;
+  margin-bottom: 0px;
+}
+
+.contenedor-motos__h2 {
+  font-size: 20px;
+  color: yellow;
+  text-shadow: 2px 2px 14px rgb(255, 0, 0);
+  border: 1px red solid;
+  border-radius: 10px;
+}
+
+.imagenes-motos:hover {
+  transform: scale(1.04, 1.04);
+  transition-duration: 700ms;
+}
+
+.contenedor-motos {
+  padding: 60px;
+}
+
+@media (min-width: 720px) {
+  .imagen-principal__motos {
+    height: 600px;
+  }
+  .contenedor-motos__h2 {
+    font-size: 50px;
+  }
+}
+
+/*# sourceMappingURL=style-2.css.map */
