@@ -1,6 +1,6 @@
 .div-contacto {
     background-image: url(../document/Rutas-en-moto-por-Europa.jpg);
-    height:600PX;
+    height:310PX;
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -12,3 +12,16 @@
 .seccion-contacto{
     justify-content: center;
 }
+@media (min-width: 720px) {
+    .div-contacto {
+        background-image: url(../document/Rutas-en-moto-por-Europa.jpg);
+        height:600PX;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 0px;
+        padding: 25px;
+        color: black;
+        text-decoration: double;
+    }
+    }
