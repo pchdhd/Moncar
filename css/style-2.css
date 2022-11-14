@@ -119,7 +119,7 @@
 .ver-mas__a {
   text-decoration: none;
   font-family: cursive;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 .contenedor-de-vehiculos__border {
@@ -223,6 +223,10 @@
 
 .contenedor-de-autos__cajas_5:hover {
   background-image: url(../document/auto\ 5.webp);
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+  transform: scale(1.04, 1.04);
+  transition-duration: 700ms;
 }
 
 @media (min-width: 1200px) {
@@ -237,6 +241,9 @@
     text-decoration: none;
     border-left: 1px solid whitesmoke;
     font-size: 12px;
+  }
+  .ver-mas__a {
+    font-size: 60px;
   }
 }
 .nav {
@@ -459,10 +466,6 @@
     display: flex;
     justify-content: center;
   }
-  .h2-sombreado {
-    margin-top: 80px;
-    text-shadow: 1px 1px 0px whitesmoke, -1px -1px 0px whitesmoke;
-  }
   .primera-fila {
     margin-top: 130px;
   }
@@ -506,9 +509,9 @@
   }
 }
 .contenedor-de-camionetas__h4 {
-  color: rgb(0, 0, 0);
-  text-shadow: 2px 2px 10px white;
-  text-shadow: 2px 2px 8px white;
+  color: rgb(255, 253, 145);
+  text-shadow: 2px 2px 10px rgb(0, 0, 0);
+  text-shadow: 2px 2px 8px rgb(0, 0, 0);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 18px;
 }
@@ -541,7 +544,7 @@
   display: grid;
   grid-template-columns: 100%;
   justify-content: center;
-  grid-template-rows: 80px 290px 290px 290px;
+  grid-template-rows: 80px 290px 290px 290px 290px;
   gap: 20px;
 }
 
@@ -647,16 +650,10 @@
     gap: 20px;
   }
   .contenedor-de-camionetas__h4 {
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 10px white;
-    text-shadow: 2px 2px 8px white;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 25px;
   }
   .contenedor-de-camionetas__h3 {
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 10px white;
-    text-shadow: 2px 2px 8px white;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 25px;
   }
@@ -689,31 +686,67 @@
 }
 .div-contacto {
   background-image: url(../document/Rutas-en-moto-por-Europa.jpg);
-  height: 310PX;
+  height: 300PX;
   max-width: 100%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 125%;
   margin: 0px;
   padding: 25px;
   color: black;
   text-decoration: double;
+  font-size: 0.5rem;
 }
 
 .seccion-contacto {
   justify-content: center;
 }
 
+.h2-sombreado {
+  margin-top: 80px;
+  text-shadow: 1px 1px 0px whitesmoke, -1px -1px 0px whitesmoke;
+  font-size: 0.7rem;
+}
+
+.div-contacto h4 {
+  font-size: 0.7rem;
+}
+
+.div-contacto h3 {
+  font-size: 0.7rem;
+}
+
+@media (min-width: 500px) {
+  .div-contacto {
+    background-size: 100%;
+  }
+}
 @media (min-width: 720px) {
   .div-contacto {
     background-image: url(../document/Rutas-en-moto-por-Europa.jpg);
     height: 600PX;
     max-width: 100%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 125%;
     margin: 0px;
     padding: 25px;
     color: black;
     text-decoration: double;
+  }
+  .h2-sombreado {
+    margin-top: 80px;
+    text-shadow: 1px 1px 0px whitesmoke, -1px -1px 0px whitesmoke;
+    font-size: 2.5rem;
+  }
+  .div-contacto h4 {
+    font-size: 2.1rem;
+  }
+  .div-contacto h3 {
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .div-contacto {
+    background-size: 100%;
   }
 }
 .imagen-motos {

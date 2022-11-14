@@ -110,8 +110,7 @@
 .ver-mas__a {
     text-decoration: none;
     font-family: cursive;
-    font-size: 60px;
-
+    font-size: 30px;
 }
 
 .contenedor-de-vehiculos__border {
@@ -215,6 +214,10 @@
 
 .contenedor-de-autos__cajas_5:hover {
     background-image: url(../document/auto\ 5.webp);
+    border: solid 1px whitesmoke;
+    border-radius: 10px;
+    transform: scale(1.04, 1.04);
+    transition-duration: 700ms;
 
 }
 @media (min-width: 1200px ){
@@ -230,5 +233,8 @@
         text-decoration: none;
         border-left: 1px solid whitesmoke;
         font-size: 12px;
+    }
+    .ver-mas__a {
+        font-size: 60px;
     }
     }

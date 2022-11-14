@@ -1,7 +1,7 @@
 .contenedor-de-camionetas__h4{
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 10px white;
-    text-shadow: 2px 2px 8px white;
+    color: rgb(255, 253, 145);
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:18px;
 }
@@ -31,7 +31,7 @@
  display: grid;
  grid-template-columns: 100%;
  justify-content: center;
- grid-template-rows:80px 290px 290px 290px ;
+ grid-template-rows:80px 290px 290px 290px 290px;
 gap: 20px;
 }
 .contenedor-de-camionetas__cajas_0{
@@ -127,16 +127,11 @@ gap: 20px;
        gap: 20px;
        }
    .contenedor-de-camionetas__h4{
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 10px white;
-    text-shadow: 2px 2px 8px white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:25px;
 }
 .contenedor-de-camionetas__h3{
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 10px white;
-    text-shadow: 2px 2px 8px white;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:25px;
 }
