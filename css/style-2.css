@@ -272,7 +272,7 @@
   text-decoration: none;
   margin-right: 0px;
   border-left: 1px solid whitesmoke;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .cajas__listas:hover {
@@ -321,7 +321,7 @@
 .pie-pagina .grupo-1 .box h2 {
   color: white;
   margin-top: 3px;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   margin-left: 20px;
 }
 
