@@ -1,11 +1,14 @@
 .imagen-duster{
-    width: 99%;
-    height: 300px;
+   
     background-repeat: no-repeat;
    margin-bottom: 0px;
    margin-left: 0px;
    display: flex;
    justify-content: center;
+}
+.imagen-duster img{
+    width: 99%;
+    height: 300px;
 }
 .imagen-principal__linea {
     width: 99%;
@@ -47,18 +50,17 @@
     font-size: 1rem;
 }
 @media (min-width: 500px) {
-    .imagen-duster{
+    .imagen-duster img{
      height: 440px;
 }
 }
 
 @media (min-width: 720px) {
-    .imagen-duster{
-        width: 99%;
+    .imagen-duster img{
+        width: 100%;
         height: 500px;
-        display: flex;
-        justify-content: center;
     }
+    
 
     .imagen-principal__linea {
         width: 99%;
@@ -112,9 +114,12 @@
 
 }
 @media (min-width: 1200px ){
-    .imagen-duster{
+    .imagen-duster img{
         width: 100%;
         height: 600px; 
+    }
+    .camionetas-index{
+        margin-top: 50px;
     }
     .h1-index{
         padding-top: 0px;

@@ -25,7 +25,8 @@
     display: grid;
     grid-template-columns: 100%;
     justify-content: center;
-    grid-template-rows:80px 290px 290px 290px 290px 290px;    
+    grid-template-rows:80px 290px 290px 290px 290px 290px;  
+    gap: 20px;  
 }
 .contenedor-de-camionetas{
  display: grid;
@@ -121,9 +122,16 @@ gap: 20px;
 @media (min-width: 720px ){
     .contenedor-de-autos{
         display: grid;
-        grid-template-columns: 550px 550px;
+        grid-template-columns: 360px 360px;
         justify-content: center;
-        grid-template-rows:120px 400px 400px 400px ;
+        grid-template-rows:120px 290px 290px 290px ;
+       gap: 20px;
+       }
+       .contenedor-de-camionetas{
+        display: grid;
+        grid-template-columns: 360px 360px;
+        justify-content: center;
+        grid-template-rows:80px 290px 290px;
        gap: 20px;
        }
    .contenedor-de-camionetas__h4{
@@ -138,20 +146,13 @@ gap: 20px;
 .h2-camionetas{
     text-align: center;
     font-size: 40px;
-    color: black;
+    color: white;
     text-shadow: 2px 2px 10px white;
     text-shadow: 2px 2px 15px whitesmoke;
 }
   .contenedor-de-camionetas__cajas_0{
     grid-column: span 2;
     padding-top: 30px;
-   }
-.contenedor-de-camionetas{
-    display: grid;
-        grid-template-columns: 550px 550px;
-        justify-content: center;
-        grid-template-rows:120px 400px 400px  ;
-       gap: 20px;
    }
    }
    
@@ -161,6 +162,12 @@ gap: 20px;
         grid-template-columns: 550px 550px;
         justify-content: center;
         grid-template-rows:120px 400px 400px ;
-    
+       }
+       .contenedor-de-autos{
+        display: grid;
+        grid-template-columns: 550px 550px;
+        justify-content: center;
+        grid-template-rows:120px 400px 400px 400px ;
+       gap: 20px;
        }
        }
