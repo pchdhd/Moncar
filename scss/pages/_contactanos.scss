@@ -1,46 +1,99 @@
 .div-contacto {
-    background-image: url(../document/Rutas-en-moto-por-Europa.jpg);
-    height:300PX;
+    height:600PX;
     max-width: 100%;
     background-repeat: no-repeat;
-    background-size: 125%;
+    background-size: 145%;
     margin: 0px;
     padding: 25px;
     color: black;
-    text-decoration: double;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     text-shadow: white 2px 2px 3px;
     text-shadow: white -2px -2px 3px;
+ display: flex;
+ justify-content: center;
+ background-image: url(../document/contacto.jpg);
 }
-.seccion-contacto{
+.centrar-nombre-usuario-textarea{
+    width: 150px;
+    height: 22px;
+    border-radius: 2px;
+}
+.seccion-contacto__centrar{
+    display: grid;
+    grid-template-columns: 150px;
+    grid-template-rows: 40px 40px 40px 40px;
     justify-content: center;
+}
+.border-input{
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+    border:2px ;
 }
 .h2-sombreado{
     margin-top: 80px;
-    text-shadow: 1px 1px 0px whitesmoke, -1px -1px 0px whitesmoke ;
-    font-size: 0.7rem;
+    text-shadow: 1px 1px 0px whitesmoke, -1px -1px 3px whitesmoke ;
+    font-size: 1rem;
+    text-align: center;
 }
 .div-contacto h4 {
-      font-size: 0.7rem;
+      font-size: 0.9rem;
+      margin-top: 20px;
+      text-shadow: 1px 1px 0px whitesmoke, -1px -1px 3px whitesmoke ;
+      text-shadow: -1px -1px 2px whitesmoke, -1px -1px 3px whitesmoke ;
 }
 .div-contacto h3 {
-    font-size: 0.7rem;
-
+    font-size: 1rem;
+    text-shadow: 1px 1px 0px whitesmoke, -1px -1px 3px whitesmoke ;
+    text-shadow: -1px -1px 2px whitesmoke, -1px -1px 3px whitesmoke ;
 }
 .enviar{
     background-color: cyan;
     border: initial 3px aquamarine;
     border-radius: 10px;
+    width: 60px;
+}
+.seccion-contacto{
+width: 70%;
+height: 520px;
+border: 2px rgb(203, 203, 203) solid;
+border-radius: 8px;
+margin-top: 42px;
+box-shadow: 6px 6px 10px;
+background-color: blue;
+background: linear-gradient(to left,rgb(2, 2, 130), rgb(83, 83, 223));
 }
 @media (min-width: 500px) {
     .div-contacto {
         background-size: 100%;
     }
+    .seccion-contacto{
+        width: 60%;
+        height: 520px;
+       
+        }
+        .centrar-nombre-usuario-textarea{
+            width: 200px;
+            height: 22px;
+        }
 }
 @media (min-width: 720px) {
+    
+    .centrar-nombre-usuario-textarea{
+        width: 300px;
+        height: 35px;
+    }
+    .seccion-contacto{ 
+        border:0px;
+        justify-content: center;
+        border-radius: 0px;
+        margin-top: 42px;
+        box-shadow: 0px 0px 0px;
+        background: none
+        }
     .div-contacto {
         background-image: url(../document/Rutas-en-moto-por-Europa.jpg);
-        height:600PX;
+        height:590PX;
         max-width: 100%;
         background-repeat: no-repeat;
         background-size: 125%;
@@ -50,21 +103,28 @@
         text-decoration: double;
         font-size: 0.9rem;
     }
+    .seccion-contacto__centrar{
+        display: block;
+    }
     .h2-sombreado{
         margin-top: 80px;
         text-shadow: 1px 1px 0px whitesmoke, -1px -1px 0px whitesmoke ;
-        font-size: 2.5rem;
+        font-size: 1.9rem;
     }
     .div-contacto h4 {
-        font-size: 2.1rem;
+        font-size: 1.7rem;
   }
   .div-contacto h3 {
-    font-size: 2.1rem;
+    font-size: 1.7rem;
 }
     }
     @media (min-width: 1200px) {
         .div-contacto {
             background-size: 100%;
             font-size: 1.1rem;
+        }
+        .centrar-nombre-usuario-textarea{
+            width: 300px;
+            height: 46px;
         }
     }
