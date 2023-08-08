@@ -6,21 +6,28 @@
    margin-left: 0px;
    display: flex;
    justify-content: center;
+   
 }
+.contenedor-de-vehiculos__border{
+    width: 300px;
+    height: 220px;
+    }
+    .contenedor-de-vehiculos__border-arreglo{
+        width: 300px;
+        height: 220px;
+        }
 .contenedor-motos__h2{
     font-size: 20px;
     color: yellow;
     text-shadow: 2px 2px 14px rgb(255, 0, 0);
     border: 1px red solid;
     border-radius: 10px;
+
 }
 .imagenes-motos:hover{
     transform: scale(1.04, 1.04 );
     transition-duration: 700ms;
 }
-.contenedor-motos{
-    padding: 60px;
-   }
    @media (min-width: 500px) {
     .imagen-motos{
 

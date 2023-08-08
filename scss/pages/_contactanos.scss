@@ -92,7 +92,7 @@ background: linear-gradient(to left,rgb(2, 2, 130), rgb(83, 83, 223));
         background: none
         }
     .div-contacto {
-        background-image: url(../document/Rutas-en-moto-por-Europa.jpg);
+
         height:590PX;
         max-width: 100%;
         background-repeat: no-repeat;
@@ -118,10 +118,17 @@ background: linear-gradient(to left,rgb(2, 2, 130), rgb(83, 83, 223));
     font-size: 1.7rem;
 }
     }
+    @media (min-width: 900px){
+        .div-contacto{
+           background-size: 1200px 800px
+        }
+    }
     @media (min-width: 1200px) {
         .div-contacto {
-            background-size: 100%;
+            
+            background-size: 1350px 1000px;
             font-size: 1.1rem;
+         
         }
         .centrar-nombre-usuario-textarea{
             width: 300px;
